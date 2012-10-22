@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.clearfix {
+	@if $legacy {
+		zoom: 1;
+	}
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+a:hover .alpha {
+	@include opacity;
+}
+
+%contents {
+	width: $siteWidth;
+	margin: 0 auto;
+}
+
+.fluidimg {
+	-ms-interpolation-mode: bicubic;
+	image-rendering: optimizeQuality;
+	max-width: 100%;
+	@if $legacy {
+		*width: 100%;
+	}
+	height: auto;
+}
+
+.inline-block {
+	@include inline-block;
+}
+
+.fl-l {
+	float: left;
+	display: inline;
+}
+.fl-r {
+	float: right;
+	display: inline;
+}

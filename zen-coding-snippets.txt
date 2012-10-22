@@ -1,0 +1,7 @@
+			"@if": "@if | {\n\t\n}",
+			"@e": "@else {\n\t|\n}",
+			"@in": "@include |",
+			"@ex": "@extend |",
+			"@mx": "@mixin | {\n\t\n}",
+			"@fn": "@function | {\n\t\n}",
+			"@r": "@return |",

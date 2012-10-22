@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@mixin inline-block {
+	display: inline-block;
+	@if $legacy {
+		display: inline;
+		zoom: 1;
+	}
+}
+
+@mixin min-height($minHVal: auto) {
+	@if $legacy {
+		height: $minHVal;
+	}
+	min-height: $minHVal;
+}
+
+@mixin opacity($opVal: 0.8) {
+	opacity: $opVal;
+	@if $legacy {
+		filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opVal*100});
+	}
+	-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opVal*100})';
+}
+
+@mixin border-radius($radiusVal: 4px) {
+	-webkit-border-radius: $radiusVal;
+	border-radius: $radiusVal;
+}
+
+
+
+// Layout
+@mixin layout-pattern($areaWidth, $colNum, $colGap, $childEle: li) {
+	$colAreaWidth: $areaWidth + $colGap;
+	overflow: hidden;
+	margin-right: -#{$colGap};
+	@if $legacy {
+		width: $colAreaWidth;
+		zoom: 1;
+	}
+	#{$childEle} {
+		$colWidth: $colAreaWidth / $colNum - $colGap;
+		width: floor($colWidth);
+		margin-right: $colGap;
+		@content;
+	}
+}
+
+
+// Button
+@mixin button($button-bg) {
+	@include border-radius;
+	background: $button-bg;
+	padding: 2px 8px;
+	@if lightness {
+		color: $c4;
+	} else {
+		color: $c2;
+	}
+}
+
+
+
+
+
+

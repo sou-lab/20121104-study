@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@import "config", "reset", "mixin", "selectors";
+
+// Placeholder
+#wrapper {
+	@extend %contents;
+}
+.contentsModule {
+	@extend %contents;
+}
+
+
+// Layout Demo
+ul {
+	@include layout-pattern(400px, 5, 8px)
+}
+
+#test {
+	@include layout-pattern(600px, 8, 8px, ".col") {
+		border: 1px solid #000;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}
+
+
+
+

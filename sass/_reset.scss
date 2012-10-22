@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+// html5
+article,aside,footer,header,nav,section,figure,figcaption,summary {
+	display: block;
+	margin:0;
+}
+audio,canvas,video,svg {
+	display:inline-block;
+}
+
+// block
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,form,blockquote {
+	margin:0;
+}
+h1,h2,h3,h4,h5,h6,small {
+	font-size:100%;
+}
+ol,ul {
+	padding:0;
+	list-style:none;
+}
+table {
+	border-collapse:collapse;  
+	border-spacing:0;
+}
+th {
+	text-align:start;
+}
+dt,dfn,address,em  {
+	font-weight:700;
+	font-style:normal;
+}
+q {
+    quotes: none;
+}
+
+// inline
+img {
+	border:none;
+}
+abbr[title],dfn[title] {
+	cursor:pointer;
+	border-bottom:1px dotted #000;
+}
+iframe {
+	vertical-align:middle;
+}
+
+// form
+fieldset {
+    border:1px solid #c0c0c0;
+    margin:0 2px;
+    padding:0.35em 0.625em 0.75em;
+}
+
+legend {
+    border:0;
+    padding:0;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0 2px;
+    vertical-align: baseline;
+    @if ($legacy) {
+		*vertical-align: middle;
+	}
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+@if $legacy {
+	.buttonClass {
+		@extend button;
+	}
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+	@if ($legacy) {
+		*height: 13px;
+		*width: 13px;
+	}
+}
+@if $legacy {
+	.inputClass {
+		@extend input[type="radio"];
+	}
+}
+

@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+//Support Browser (IE6, 7:trule / Modan: false)
+$legacy: false;
+
+// Dummy Text(for IE9)
+$dummy: false;
+
+// Color
+$c1: #000;
+$c2: #333;
+$c3: #999;
+$c4: #aaa;
+$c5: #fff;
+
+// Layout
+$siteWidth: 960px;
+$main: 640px;
+$side: 312px;
+$sub: 0;
+
+// font-family
+$sans: Meiryo,"メイリオ","ヒラギノ角ゴ Pro W3",sans-serif;
+$ms-sans: Helvetica, Arial, sans-serif;
+$serif: "Hiragino Mincho Pro","ヒラギノ明朝 Pro","Georgia","Times New Roman",sans-serif;
