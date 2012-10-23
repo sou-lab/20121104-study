@@ -48,7 +48,7 @@
 ## Sass
 
 - Install for Mac
-  1.ターミナル.app
+  1. ターミナル.app
   2. ruby -v
   3. sudo gem update --system
   4. gem install sass
