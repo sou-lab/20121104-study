@@ -49,19 +49,47 @@
 
 
 // Button
-@mixin button($button-bg) {
+@mixin button($buttonBg) {
 	@include border-radius;
-	background: $button-bg;
+	background: $buttonBg;
 	padding: 2px 8px;
-	@if lightness {
-		color: $c4;
-	} else {
-		color: $c2;
+	@if lightness($buttonBg)  <= 50% {
+		color: $c5;
+		border: 1px solid darken($buttonBg, 20%);
+	} @else {
+		color: $c1;
+		border: 1px solid darken($buttonBg, 20%); 
 	}
 }
 
 
-
+// Dummy Text
+@if $dummy {
+	$headline: h1, h2, h3, h4, h5, h6;
+	$item: p, li;
+	
+	%headline {
+		content: 'Headline Item';
+	}
+	
+	%item {
+		content: '以下の文章はサンプルです。内容は適切に書き変われます。いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせす';
+	}
+	
+	$headlineSet: '';
+	@each $headlineSet in $headline {
+		#{$headlineSet}:empty:before {
+			@extend %headline;
+		}
+	}
+	
+	$itemSet: '';
+	@each $itemSet in $item {
+		#{$itemSet}:empty:before {
+			@extend %item;
+		}
+	}
+}
 
 
 

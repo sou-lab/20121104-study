@@ -1,3 +1,4 @@
+@charset "UTF-8";
 article, aside, footer, header, nav, section, figure, figcaption, summary {
   display: block;
   margin: 0;
@@ -90,6 +91,14 @@ input[type="radio"] {
   padding: 0;
 }
 
+h1:empty:before, h2:empty:before, h3:empty:before, h4:empty:before, h5:empty:before, h6:empty:before {
+  content: 'Headline Item';
+}
+
+p:empty:before, li:empty:before {
+  content: '以下の文章はサンプルです。内容は適切に書き変われます。いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせす';
+}
+
 .clearfix:after {
   content: "";
   display: block;
@@ -146,4 +155,22 @@ ul li {
   border: 1px solid #000;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.button {
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #eeeeee;
+  padding: 2px 8px;
+  color: black;
+  border: 1px solid #bbbbbb;
+}
+
+.button2 {
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #009966;
+  padding: 2px 8px;
+  color: white;
+  border: 1px solid #003322;
 }
