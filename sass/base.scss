@@ -25,5 +25,12 @@ ul {
 }
 
 
+// Button Demo
+.button {
+	@include button(#eee);
+}
+.button2 {
+	@include button(#096);
+}
 
 
