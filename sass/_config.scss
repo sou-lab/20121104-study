@@ -1,10 +1,13 @@
 @charset "utf-8";
 
-//Support Browser (IE6, 7:trule / Modan: false)
+// HTML5 Support
+$html5: false;
+
+// Browser Support (IE6, 7:trule / Modan: false)
 $legacy: false;
 
 // Dummy Text(for IE9)
-$dummy: true;
+$dummy: false;
 
 // Color
 $c1: #000;
