@@ -20,7 +20,7 @@ a:hover .alpha {
 	margin: 0 auto;
 }
 
-.fluidimg {
+%fluidimg {
 	-ms-interpolation-mode: bicubic;
 	image-rendering: optimizeQuality;
 	max-width: 100%;
@@ -30,15 +30,15 @@ a:hover .alpha {
 	height: auto;
 }
 
-.inline-block {
+%dIB {
 	@include inline-block;
 }
 
-.fl-l {
+%flL {
 	float: left;
 	display: inline;
 }
-.fl-r {
+%flR {
 	float: right;
 	display: inline;
 }

@@ -1,12 +1,14 @@
 @charset "UTF-8";
 
 // html5
-article,aside,footer,header,nav,section,figure,figcaption,summary {
-	display: block;
-	margin:0;
-}
-audio,canvas,video,svg {
-	display:inline-block;
+@if $html5 {
+	article,aside,footer,header,nav,section,figure,figcaption,summary {
+		display: block;
+		margin:0;
+	}
+	audio,canvas,video,svg {
+		display:inline-block;
+	}
 }
 
 // block
@@ -29,7 +31,7 @@ table {
 	border-spacing:0;
 }
 th {
-	text-align:start;
+	text-align: left;
 }
 dt,dfn,address,em  {
 	font-weight:700;
@@ -53,7 +55,7 @@ iframe {
 
 // form
 fieldset {
-    border:1px solid #c0c0c0;
+    border:1px solid $c3;
     margin:0 2px;
     padding:0.35em 0.625em 0.75em;
 }
