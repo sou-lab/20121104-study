@@ -17,12 +17,12 @@
 - Introduction
 - Install(Ruby, Sass)
 - CUI [terminal]
-  * ls / dir (Mac / Win)
   * cd
-  * open / explorer
-  * mkdir
-  * touch / type style.scss > style.scss
-  * Sass --watch style.scss:style.css
+  * sass
+  * sass ○○.scss:○○.css
+  * --style / -t [nested/expanded/compact/compressed]
+  * --watch
+  * batファイル(commanadファイル)にについて
 - GUI [[Scout](http://mhs.github.com/scout-app/)]
 - Sass Features
   * Nested Rules
