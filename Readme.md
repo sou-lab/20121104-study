@@ -30,8 +30,7 @@
   * @mixin and @include
   * @extend and Placeholder: % 
 - Sass Tips
-  * 
-  
+
 ---
 
 # Zen-Coding and Sass Reference ;)
@@ -57,6 +56,12 @@
   * [一番カンタンな環境構築（Scout編）](http://css-happylife.com/archives/2012/0107_0000.php)
 - [File: SASS_REFERENCE](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html)
 - [sassの抑えておきたいfunctionの使い方](http://tech.naver.jp/blog/?p=845)
+- ### Framework
+  * [Compass](http://compass-style.org/) 
+  * [Bourbon](http://thoughtbot.com/bourbon/) 
+  * [Bootstrap for Sass](https://github.com/thomas-mcdonald/bootstrap-sass)
+- ### Related Entry
+  * [Sass vs. Stylus: Who Wins the Minimal Syntax Battle?](http://designshack.net/articles/css/sass-vs-stylus-who-wins-the-minimal-syntax-battle/)
 
 ---
 
