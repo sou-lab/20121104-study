@@ -20,9 +20,9 @@
   * cd
   * sass
   * sass ○○.scss:○○.css
-  * --style / -t [nested/expanded/compact/compressed]
+  * --style / -t [nested / expanded / compact / compressed]
   * --watch
-  * batファイル(commanadファイル)にについて
+  * batファイル(commanadファイル)について
 - GUI [[Scout](http://mhs.github.com/scout-app/)]
 - Sass Features
   * Nested Rules
