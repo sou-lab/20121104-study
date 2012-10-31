@@ -26,6 +26,30 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula 
  
  ---
  
+ FAQ
+ 
+Q: Which bits of HTML5 can I use right now?
+A: Lots of them! Here’s a short list of cross-browser (including IE) compatible techniques that you can use today:
+
+Q: What are the benefits of using HTML5 now?
+A: Here are several, in no particular order:
+ 
+Q: What are the downsides to using HTML5 now?
+A: Obviously, you make some trade-offs when using HTML5:
+
+Q: What if my client mentions that “HTML5 won’t be finished until 2022″?
+A: Politely inform them that it’ll be closer to 2012 (and some might argue even sooner). 
+Tell them you’re building this site with an eye on the future and that it will help them in the long run. In my opinion, it’s only fair to inform your client that you’re using HTML5 (depending on their position and level of understanding), though in some cases it won’t matter because they’re only concerned with how the site looks in the browser they use.
+ 
+Q: Will using HTML5 negatively affect my clients’ search engine rankings?
+A: No. Google is properly indexing sites built with HTML5. Take our site for example — it’s doing just fine. ;)
+ 
+Q: Have you built any client sites with HTML5?
+A: We’ve both started using things like the simplified doctype and reduced markup in our client work. We’ve also used HTML5 on a lot of professional projects where we’re our own clients, such as Speak the Web and the 2009 Full Frontal JavaScript Conference.
+We haven’t used it as much for full-fledged HTML5 apps that use all the new markup and new APIs – but rest assured, there is work in the pipeline. :)
+ 
+ ---
+ 
  <!-- Side Bar -->
  
  Categories
