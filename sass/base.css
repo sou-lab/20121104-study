@@ -1,0 +1,47 @@
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, form, blockquote { margin: 0; }
+
+h1, h2, h3, h4, h5, h6, small { font-size: 100%; }
+
+ol, ul { padding: 0; list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+th { text-align: left; }
+
+dt, dfn, address, em { font-weight: 700; font-style: normal; }
+
+q { quotes: none; }
+
+img { border: none; }
+
+abbr[title], dfn[title] { cursor: pointer; border-bottom: 1px dotted #000; }
+
+iframe { vertical-align: middle; }
+
+fieldset { border: 1px solid #999999; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+legend { border: 0; padding: 0; }
+
+button, input, select, textarea { font-size: 100%; margin: 0 2px; vertical-align: baseline; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+.clearfix:after { content: ""; display: block; clear: both; }
+
+a:hover .alpha { opacity: 0.8; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; }
+
+#wrapper, .contentsModule { width: 960px; margin: 0 auto; }
+
+ul { overflow: hidden; margin-right: -8px; }
+ul li { width: 73px; margin-right: 8px; }
+
+#test { overflow: hidden; margin-right: -8px; }
+#test .col { width: 68px; margin-right: 8px; border: 1px solid #000; margin-bottom: 20px; text-align: center; }
+
+.button { -webkit-border-radius: 4px; border-radius: 4px; background: #eeeeee; padding: 2px 8px; color: black; border: 1px solid #bbbbbb; }
+
+.button2 { -webkit-border-radius: 4px; border-radius: 4px; background: #009966; padding: 2px 8px; color: white; border: 1px solid #003322; }
