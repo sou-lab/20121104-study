@@ -1,4 +1,4 @@
-﻿# パッケージコントロールのインストール
+# パッケージコントロールのインストール
 
 - View>Show Console
 
@@ -15,8 +15,8 @@ https://github.com/sergeche/emmet-sublime
 # パッケージのインストール
 
 - Emmet
+- ZenCoding
 - SCSS
-- SCSS Snipets
 
 ---
 

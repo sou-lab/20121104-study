@@ -52,6 +52,7 @@
   3. sudo gem update --system
   4. gem install sass
 - [Windows PC に Ruby と Sass を導入する方法](http://www.hamashun.me/archives/1294573.html)
+- [【Sass】導入〜基本操作](http://kanapple.net/study/archives/4)
 - [【Sassを覚えよう！】もくじ的なのと参考リンク](http://css-happylife.com/archives/sass/)
   * [一番カンタンな環境構築（Scout編）](http://css-happylife.com/archives/2012/0107_0000.php)
 - [File: SASS_REFERENCE](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html)
