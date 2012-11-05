@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+//一行コメント( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ
+/* 通常コメントはコンパイルしても残る */
+
+//パーシャル( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ			
+@import "reset";
+
+//通常の@importもできる( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ
+@import url("hogehoge.css");
+
+
+
+//変数( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ	
+$red: #ff0000;
+$bg: #ccc url() 0 0 no-repeat;
+$size: 400px;
+
+
+
+//mixin( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ	
+@mixin ti9999 {
+	text-indent: -9999px;
+}
+
+@mixin border-radius($r-size:5px) {
+  -moz-border-radius:$r-size;
+  -webkit-border-radius:$r-size;
+  -ms-border-radius:$r-size;
+  -o-border-radius:$r-size;
+  border-radius:$r-size;
+}
+
+
+@each $member in aitsu,koitsu,soitsu,ore,omae {
+	#minna-#{$member} {
+	background:transparent image-url('image-#{$member}.png') left top no-repeat;
+	}	
+
+}
+
+
+
+//％がつくとPlaceholder（Sass3.2以上の追加機能）( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ	
+%clearfix {
+    *zoom: 1;
+    //
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+//汎用クラスもPlaceholderにすると書き出されない！( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ	
+%margin15l {margin-left:15px !important;}
+%margin20l {margin-left:20px !important;}
+%margin10t {margin-top:10px !important;}
+%margin15t {margin-top:15px !important;}
+%margin20t {margin-top:20px !important;}
+%margin10b {margin-bottom:10px !important;}
+%margin15b {margin-bottom:15px !important;}
+%margin20b {margin-bottom:20px !important;}
+%margin30b {margin-bottom:30px !important;}
+%margin40b {margin-bottom:40px !important;}
+%margin50b {margin-bottom:50px !important;}
+%margin60b {margin-bottom:60px !important;}
+%margin70b {margin-bottom:70px !important;}
+%margin80b {margin-bottom:80px !important;}
+%margin90b {margin-bottom:90px !important;}
+%margin100b {margin-bottom:100px !important;}
+
+
+
+
+//ページ記述ここから( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ	
+
+header {
+	background: $bg;
+	color: $red;
+	width: $size - 2px;
+	nav {
+		font-size: 5em;
+	}
+
+}
+section {
+	//@include mixinを展開( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ
+	@include border-radius;
+	h1 {
+		color: $red;
+	}
+	ul {
+		overflow: hidden;
+		*zoom:1;
+	}
+	li {
+		margin-bottom: 20px;
+
+		a {
+			text-decoration: underline;
+			&:hover{ 
+				text-decoration:none;
+			}
+		}
+	}
+}
+
+.te-i {
+	text-indent: -9999px;
+}
+
+p { color: $red; }
+
+#hogechi {
+	display: block;
+}
+
+//extend( ‘д‘⊂彡☆))Д´) ﾊﾟｰﾝ	
+.hogeru {
+	@extend .te-i;
+	@extend .hogesi;
+	@extend #hogechi;
+	@extend p;
+	@extend %margin15l;
+	@extend %clearfix;
+	padding-bottom: 20px;
+}
+
+.hogesi {
+	@extend %margin15l;
+	@extend %clearfix;
+}
+
+

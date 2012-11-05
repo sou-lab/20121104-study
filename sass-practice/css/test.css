@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url("hogehoge.css");
+/* 通常コメントはコンパイルしても残る */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, .hogeru, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.hogeru, .hogesi {
+  margin-left: 15px !important;
+}
+
+.hogeru, .hogesi {
+  *zoom: 1;
+}
+.hogeru:after, .hogesi:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#minna-aitsu {
+  background: transparent image-url("image-aitsu.png") left top no-repeat;
+}
+
+#minna-koitsu {
+  background: transparent image-url("image-koitsu.png") left top no-repeat;
+}
+
+#minna-soitsu {
+  background: transparent image-url("image-soitsu.png") left top no-repeat;
+}
+
+#minna-ore {
+  background: transparent image-url("image-ore.png") left top no-repeat;
+}
+
+#minna-omae {
+  background: transparent image-url("image-omae.png") left top no-repeat;
+}
+
+header {
+  background: #cccccc url() 0 0 no-repeat;
+  color: red;
+  width: 800px;
+}
+header nav {
+  font-size: 5em;
+}
+
+section {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+section h1 {
+  color: red;
+}
+section ul {
+  overflow: hidden;
+  *zoom: 1;
+}
+section li {
+  margin-bottom: 20px;
+}
+section li a {
+  text-decoration: underline;
+}
+section li a:hover {
+  text-decoration: none;
+}
+
+.te-i, .hogeru {
+  text-indent: -9999px;
+}
+
+p, .hogeru {
+  color: red;
+}
+
+#hogechi, .hogeru {
+  display: block;
+}
+
+.hogeru {
+  padding-bottom: 20px;
+}

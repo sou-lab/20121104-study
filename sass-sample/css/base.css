@@ -1,3 +1,12 @@
+article, aside, footer, header, nav, section, figure, figcaption, summary {
+  display: block;
+  margin: 0;
+}
+
+audio, canvas, video, svg {
+  display: inline-block;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
