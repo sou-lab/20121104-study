@@ -46,19 +46,6 @@ table {
   border-spacing: 0;
 }
 
-.hogeru, .hogesi {
-  margin-left: 15px !important;
-}
-
-.hogeru, .hogesi {
-  *zoom: 1;
-}
-.hogeru:after, .hogesi:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 #minna-aitsu {
   background: transparent image-url("image-aitsu.png") left top no-repeat;
 }
@@ -79,10 +66,23 @@ table {
   background: transparent image-url("image-omae.png") left top no-repeat;
 }
 
+.hogeru, .hogesi {
+  *zoom: 1;
+}
+.hogeru:after, .hogesi:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.hogeru, .hogesi {
+  margin-left: 15px !important;
+}
+
 header {
   background: #cccccc url() 0 0 no-repeat;
   color: red;
-  width: 800px;
+  width: 398px;
 }
 header nav {
   font-size: 5em;
